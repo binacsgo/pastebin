@@ -15,3 +15,29 @@ PasteBin implement, written in Go.
 >
 >   `blackfriday.HardLineBreak` 参数旨在消除两行连成一行的情况；
 
+## 2 GoldMark
+
+Mermaid:
+
+```mermaid
+flowchart LR
+	nodeA((nodeA))
+	nodeB((nodeB))
+	nodeA-- dp1/pod1 -->nodeB
+```
+
+Code Block:
+
+```c++
+int main(int argc, char* argv[]) {
+    int a = 666;
+    vector<int> b({1, 2, 3});
+    string c = "hello world";
+
+    cout << "a=" << a << ", b=" << b << ", c=" << c
+         << endl;
+    debug(a, b, c);  // a=666, b=[ 1, 2, 3, ], c=hello world
+
+    return 0;
+}
+```
