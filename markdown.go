@@ -6,8 +6,8 @@ import (
 
 	"github.com/russross/blackfriday/v2"
 
-	mermaid "github.com/abhinav/goldmark-mermaid"
 	emoji "github.com/yuin/goldmark-emoji"
+	mermaid "go.abhg.dev/goldmark/mermaid"
 
 	// toc "github.com/abhinav/goldmark-toc"
 	// highlighting "github.com/yuin/goldmark-highlighting"
